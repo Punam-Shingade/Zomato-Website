@@ -63,7 +63,43 @@ body {
     color: #1d3557;
 }
 
+.food-card-discription {
+  padding: 15px;
+}
+.food-card {
+    background-color: #f9f9f9;
+}
+
+.food-card-image-container {
+    width: 100%;
+}
+
+.food-image {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+
+.explore-menu-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #1d3557;
+}
+
  @media (min-width: 768px) {
+    .explore-menu-list {
+        margin-top: 45px;
+        display: flex;
+        gap: 15px;
+        padding: 0 30px;
+    }
+
+    #pizza-card {
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
     .navbar {
         justify-content: space-between;
         padding: 10px 30px;
@@ -75,12 +111,36 @@ body {
         flex-direction: row-reverse;
         align-items: center;
     }
+    .explore-menu-container {
+        position: relative;
+     }
+    .explore-menu-gradient-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(
+            to right,
+            #ff512f 0%,
+            #dd2476 51%,
+            #ff512f 100%
+        );
+        z-index: -3;
+        transform: skewY(-5deg);
+    }
+    
 }
 
 @media (min-width:1024px) {
      .container{
         max-width: 70%;
      }
+
+     .explore-menu-list {
+        gap: 25px;
+    }
+
     
     .navbar-brand {
         width: 150px;
@@ -96,4 +156,9 @@ body {
     .hero-text {
         font-size: 40px;
     }
+
+    .explore-menu-text {
+        font-size: 48px;
+    }
+     
 }
