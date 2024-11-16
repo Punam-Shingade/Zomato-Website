@@ -1,4 +1,4 @@
-Zonato Landing Page
+Zonato Landing Page :
 A simple and elegant landing page built using only basic HTML and CSS. This project demonstrates the use of fundamental web development techniques to create a visually appealing and responsive layout.
 
 Features:
